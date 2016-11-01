@@ -1,0 +1,13 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ContextCli2.Actions.HostActions
+{
+    [Action(Context = Context.Host, SubContext = Context.Account)]
+    class StopAction
+    {
+    }
+}
